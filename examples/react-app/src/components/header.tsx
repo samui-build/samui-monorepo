@@ -3,7 +3,7 @@ export function Header() {
         <header style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ flexGrow: 1 }}>
                 <h1 style={{ fontSize: '1.25rem', fontWeight: 500, lineHeight: '1.6', margin: 0 }}>
-                    <span style={{ fontFamily: 'monospace' }}>[samui-build]</span> React App
+                    <span style={{ fontFamily: 'monospace' }}>[@samui/react-app]</span> React App
                 </h1>
             </div>
             <div style={{ alignItems: 'center', display: 'flex' }}>
