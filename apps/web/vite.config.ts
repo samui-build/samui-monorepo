@@ -14,6 +14,19 @@ function replaceProcessEnv(mode: string): Plugin {
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
     base: process.env.REACT_EXAMPLE_APP_BASE_PATH,
+    build: {
+        rollupOptions: {
+            external: [
+                '@tabler/icons-react',
+                '@tanstack/react-query',
+                'jotai',
+                'react',
+                'react-dom',
+                'react-router-dom',
+            ],
+            treeshake: true,
+        },
+    },
     define: {
         'process.env': process.env,
     },

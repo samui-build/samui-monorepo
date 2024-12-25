@@ -13,12 +13,24 @@
         "test:typecheck": "tsc"
     },
     "dependencies": {
+        "@mantine/core": "^7.15.2",
+        "@mantine/dates": "^7.15.2",
+        "@mantine/form": "^7.15.2",
+        "@mantine/hooks": "^7.15.2",
+        "@mantine/modals": "^7.15.2",
+        "@mantine/notifications": "^7.15.2",
         "@samui/core": "workspace:*",
         "@samui/react": "workspace:*",
+        "@samui/ui": "workspace:*",
         "@solana/web3.js": "2",
+        "@tabler/icons-react": "^3.26.0",
+        "@tanstack/react-query": "^5.62.10",
+        "jotai": "^2.11.0",
         "react": "^19",
         "react-dom": "^19",
         "react-error-boundary": "^5.0.0",
+        "react-router-dom": "^7.1.1",
+        "rollup-plugin-visualizer": "^5.12.0",
         "swr": "^2.2.5"
     },
     "devDependencies": {
