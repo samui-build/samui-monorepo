@@ -1,5 +1,3 @@
-import { foo } from '@samui/core';
-
 export function useFoo() {
-    return { foo: foo() };
+    return { foo: 'foo' };
 }

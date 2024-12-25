@@ -17,3 +17,4 @@ export * from './parse-solana-config';
 export * from './request-airdrop';
 export * from './send-and-confirm-instructions';
 export * from './sign-and-send-transaction';
+export * from './spl-token';
