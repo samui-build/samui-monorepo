@@ -4,7 +4,6 @@ import { Text } from '@mantine/core';
 import { UiFooterLink } from '@samui/ui';
 import { IconDashboard, IconTools } from '@tabler/icons-react';
 import { Suspense } from 'react';
-import { ErrorBoundary } from 'react-error-boundary';
 import { BrowserRouter, Navigate, Route, RouteObject, Routes } from 'react-router-dom';
 
 import { WebLayout } from './web-layout.tsx';
@@ -23,19 +22,17 @@ const routes: RouteObject[] = [
 
 export function WebShellFeature() {
     return (
-        <ErrorBoundary fallback={<p>Something went wrong</p>}>
-            <WebProvider name="@samui/web" version="1.0.0">
-                <BrowserRouter>
-                    <WebUiProvider>
-                        <WebLayout footerLinks={footerLinks}>
-                            <Suspense fallback={<p>Loading...</p>}>
-                                <WebShellRouter routes={routes} />
-                            </Suspense>
-                        </WebLayout>
-                    </WebUiProvider>
-                </BrowserRouter>
-            </WebProvider>
-        </ErrorBoundary>
+        <WebProvider name="@samui/web" version="1.0.0">
+            <BrowserRouter>
+                <WebUiProvider>
+                    <WebLayout footerLinks={footerLinks}>
+                        <Suspense fallback={<p>Loading...</p>}>
+                            <WebShellRouter routes={routes} />
+                        </Suspense>
+                    </WebLayout>
+                </WebUiProvider>
+            </BrowserRouter>
+        </WebProvider>
     );
 }
 

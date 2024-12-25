@@ -14,10 +14,7 @@ createRoot(document.getElementById('root')!).render(
     </StrictMode>,
 );
 
-function ErrorBoundaryFallback({ error, ...props }: { error: Error }) {
-    // Call resetErrorBoundary() to reset the error boundary and retry the render.
-
-    console.error({ error, props });
+function ErrorBoundaryFallback({ error }: { error: Error }) {
     return (
         <div role="alert">
             <p>Something went wrong:</p>
