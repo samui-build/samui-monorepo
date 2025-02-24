@@ -23,7 +23,7 @@
         "@samui/react": "workspace:*",
         "@samui/ui": "workspace:*",
         "@solana/web3.js": "2",
-        "@tabler/icons-react": "^3.26.0",
+        "@tabler/icons-react": "^3.30.0",
         "@tanstack/react-query": "^5.62.10",
         "jotai": "^2.12.1",
         "react": "^19",
