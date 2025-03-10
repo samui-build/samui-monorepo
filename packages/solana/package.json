@@ -1,6 +1,6 @@
 {
     "name": "@samui/solana",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Solana Javascript API",
     "exports": {
         "edge-light": {
