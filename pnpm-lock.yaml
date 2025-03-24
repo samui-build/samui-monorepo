@@ -190,8 +190,8 @@ importers:
         specifier: ^5.12.0
         version: 5.12.0(rollup@4.34.8)
       swr:
-        specifier: ^2.3.2
-        version: 2.3.2(react@19.0.0)
+        specifier: ^2.3.3
+        version: 2.3.3(react@19.0.0)
     devDependencies:
       '@types/react':
         specifier: ^19
@@ -233,8 +233,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(react@19.0.0)
       swr:
-        specifier: ^2.3.2
-        version: 2.3.2(react@19.0.0)
+        specifier: ^2.3.3
+        version: 2.3.3(react@19.0.0)
     devDependencies:
       '@types/react':
         specifier: ^19
@@ -2540,6 +2540,9 @@ packages:
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
+
+  '@types/estree@1.0.7':
+    resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
   '@types/graceful-fs@4.1.6':
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
@@ -5159,8 +5162,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  swr@2.3.2:
-    resolution: {integrity: sha512-RosxFpiabojs75IwQ316DGoDRmOqtiAj0tg8wCcbEu4CiLZBs/a9QNtHV7TUfDXmmlgqij/NqzKq/eLelyv9xA==}
+  swr@2.3.3:
+    resolution: {integrity: sha512-dshNvs3ExOqtZ6kJBaAsabhPdHyeY4P2cKwRCniDVifBMoG/SVI7tfLWqPXriVspf2Rg4tPzXJTnwaihIeFw2A==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -8193,7 +8196,7 @@ snapshots:
 
   '@types/eslint@9.6.1':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       '@types/json-schema': 7.0.15
 
   '@types/eslint__js@8.42.3':
@@ -8201,6 +8204,8 @@ snapshots:
       '@types/eslint': 9.6.1
 
   '@types/estree@1.0.6': {}
+
+  '@types/estree@1.0.7': {}
 
   '@types/graceful-fs@4.1.6':
     dependencies:
@@ -11321,7 +11326,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  swr@2.3.2(react@19.0.0):
+  swr@2.3.3(react@19.0.0):
     dependencies:
       dequal: 2.0.3
       react: 19.0.0
