@@ -72,7 +72,7 @@
     ],
     "dependencies": {
         "@mantine/core": "^7.15.2",
-        "@mantine/dates": "^7.17.0",
+        "@mantine/dates": "^7.17.2",
         "@mantine/form": "^7.15.2",
         "@mantine/hooks": "^7.17.0",
         "@mantine/modals": "^7.17.2",
