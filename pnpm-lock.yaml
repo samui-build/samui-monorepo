@@ -385,8 +385,8 @@ importers:
         specifier: ^7.4.0
         version: 7.4.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       timeago-react:
-        specifier: ^3.0.6
-        version: 3.0.6(react@19.0.0)
+        specifier: ^3.0.7
+        version: 3.0.7(react@19.0.0)
     devDependencies:
       '@types/react':
         specifier: ^19
@@ -5080,10 +5080,10 @@ packages:
   throat@6.0.2:
     resolution: {integrity: sha512-WKexMoJj3vEuK0yFEapj8y64V0A6xcuPuK9Gt1d0R+dzCSJc0lHqQytAbSB4cDAK0dWh4T0E2ETkoLE2WZ41OQ==}
 
-  timeago-react@3.0.6:
-    resolution: {integrity: sha512-4ywnCX3iFjdp84WPK7gt8s4n0FxXbYM+xv8hYL73p83dpcMxzmO+0W4xJuxflnkWNvum5aEaqTe6LZ3lUIudjQ==}
+  timeago-react@3.0.7:
+    resolution: {integrity: sha512-5LSQuq+mzfEpMHkJQgMWnOs27dGh25aUQhffQpAW6q431vVVmHP194KYsM4bhzli0XfohUgN8+r3Pq6GVprN4A==}
     peerDependencies:
-      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   timeago.js@4.0.2:
     resolution: {integrity: sha512-a7wPxPdVlQL7lqvitHGGRsofhdwtkoSXPGATFuSOA2i1ZNQEPLrGnj68vOp2sOJTCFAQVXPeNMX/GctBaO9L2w==}
@@ -11131,7 +11131,7 @@ snapshots:
 
   throat@6.0.2: {}
 
-  timeago-react@3.0.6(react@19.0.0):
+  timeago-react@3.0.7(react@19.0.0):
     dependencies:
       react: 19.0.0
       timeago.js: 4.0.2
