@@ -18,7 +18,7 @@
         "@mantine/form": "^7.15.2",
         "@mantine/hooks": "^7.17.2",
         "@mantine/modals": "^7.17.3",
-        "@mantine/notifications": "^7.17.2",
+        "@mantine/notifications": "^8.0.2",
         "@samui/core": "workspace:*",
         "@samui/react": "workspace:*",
         "@samui/ui": "workspace:*",
